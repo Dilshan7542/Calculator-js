@@ -118,7 +118,7 @@ main>section{
     align-items: center;
    background-color: black;
 color: white;
-    font-size: 2em;
+
     border-radius: 12px;
     width: 20%;
     height: 90%;
@@ -126,6 +126,10 @@ color: white;
 
     cursor: pointer;
 
+}
+.buttonSection>section>div>span{
+    font-size: 2rem;
+    font-weight: bold;
 }
 section>div:last-child{
     background-color: #005fd0;
@@ -144,7 +148,7 @@ section>div:last-child{
 .btnBackSpace{
     background-image: url("../img/icons8-backspace-50 (2).png");
     background-repeat: no-repeat;
-    background-size:1.5em;
+    background-size:2.5em;
    background-position-x: center;
     background-position-y: center;
 
