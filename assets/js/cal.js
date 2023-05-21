@@ -80,9 +80,3 @@ function clearNumbers() {
     $("#txtValues").val("");
     value=undefined;
 }
-(function(){
-    var a=document.getElementById("cwos"),b;
-    var c=parseFloat(a.innerText||a.textContent),d=c.toString();
-    if(12>=d.replace(/^-/,"").replace(/\./,"").length)b=d;
-    else if(d=c.toPrecision(12)
-        ,-1!==d.indexOf("e")){var e,f,g,h=null!=(g=null==(e=d.match(/e.*$/))?void 0:null==(f=e[0])?void 0:f.length)?g:0;b=c.toPrecision(12-h-("0"===d[0]?1:0)).replace(/\.?0*e/,"e")}else{var k=d.match(/(^-|\.)/g),l=d.substr(0,12+(k?k.length:0));b=-1!==l.indexOf(".")?l.replace(/\.?0*$/,""):l}a.textContent=b;}).call(this);

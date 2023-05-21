@@ -141,8 +141,19 @@ section>div:last-child{
    border: rgb(255, 255, 255) solid 2px;
 
 }
+.btnBackSpace{
+    background-image: url("../img/icons8-backspace-50 (2).png");
+    background-repeat: no-repeat;
+    background-size:1.5em;
+   background-position-x: center;
+    background-position-y: center;
+
+}
 @media all and (min-width: 450px) {
     #btnZro,#btnEqual{
         flex-grow: 0 !important;
+    }
+    div{
+        font-size: 1em !important;
     }
 }
