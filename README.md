@@ -1,4 +1,5 @@
 # calculator-js-assignment-10
 calculator IJSE assignment-10 
-![image](https://github.com/Dilshan7542/calculator-js-assignment-10/assets/90984625/a630bc58-15ee-4754-a8fe-cf87f26e0148)
+![image](https://github.com/Dilshan7542/calculator-js-assignment-10/assets/90984625/b6e921dc-fbe1-4ba6-9b5b-58a62e87c371)
+
 
